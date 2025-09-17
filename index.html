@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GameHub</title>
+    <link rel="icon" type="image/x-icon" href="gaming favicon.png" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="Home-page">
+        <div class="nav">
+          <div class="title">GameHub</div>
+          <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#games">Games</a></li>
+            <!-- <li><a href="#News">News</a></li> -->
+            <li><a href="#contact-page1">Contact</a></li>
+          </ul>
+          <div class="box">
+            <input
+              type="text"
+              id="searchBx"
+              name="searchBx"
+              placeholder="Search Games"
+            />
+          </div>
+        </div>
+        <div class="Home">
+          <h1>Your Ultimate<br> Destination for Games!</h1>
+          <p>
+            <!-- Unleash your inner gamer with our vast selection of titles.<br> From fast-paced shooters to mind-bending puzzles, experience gaming at its finest. -->
+            Discover thrilling games across genres—your next adventure awaits at GameHub.
+          </p>
+          <button>Join Now</button>
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="contentBx" id="About">
+          <h2>About Us</h2>
+          <p>
+            "Welcome to GameHub, the ultimate playground for gamers everywhere!
+            Our passion is bringing you the latest and greatest in gaming, from
+            trending new releases to beloved classics and hidden gems. At
+            GameHub, we believe shopping for games should be as exciting as
+            playing them. Join a community of gamers who live for the thrill,
+            and let's level up together.Ready to play?"
+          </p>
+          <button id="read-more-btn"><a href="#">Read more</a></button>
+        <!-- </section>         -->
+        </div>
+      </div>
+      
+       <!-- Games -->
+  <div class="games animeX" id="games">
+    <h2>Popular Games</h2>
+    <ul>
+      <li class="list active" data-filter="all">All</li>
+      <li class="list" data-filter="pc">PC games</li>
+      <li class="list" data-filter="mobile">Mobile games</li>
+    </ul>
+
+    <div class="cardBx">
+      <!-- PC Game Cards -->
+      <div class="card" data-item="pc">
+        <img src="game1.png" alt="Game 1"/>
+        <div class="content">
+          <h4>Grand Theft Auto</h4>
+          <div class="info">
+            <p>Pricing<br /><span>1699 ₹</span></p>
+            <a href="#">Play Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" data-item="pc">
+        <img src="game3.jpg" alt="Game 2"/>
+        <div class="content">
+          <h4>Batman Arkham City</h4>
+          <div class="info">
+            <p>Pricing<br /><span>1499 ₹</span></p>
+            <a href="#">Play Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" data-item="pc">
+        <img src="game4.png" alt="Game 3"/>
+        <div class="content">
+          <h4>Assassins Creed Valhalla</h4>
+          <div class="info">
+            <p>Pricing<br /><span>1099 ₹</span></p>
+            <a href="#">Play Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" data-item="pc">
+        <img src="game5.jpg" alt="Game 4"/>
+        <div class="content">
+          <h4>Spider man</h4>
+          <div class="info">
+            <p>Pricing<br /><span>1299 ₹</span></p>
+            <a href="#">Play Now</a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Mobile Game Cards -->
+      <div class="card" data-item="mobile">
+        <img src="game6.jpg" alt="Mobile Game 1"/>
+        <div class="content">
+          <h4>Clash Royale</h4>
+          <div class="info">
+            <p>Pricing<br /><span>799 ₹</span></p>
+            <a href="#">Play Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" data-item="mobile">
+        <img src="game7.webp" alt="Mobile Game 2"/>
+        <div class="content">
+          <h4>Subway Surfers</h4>
+          <div class="info">
+            <p>Pricing<br /><span>Free</span></p>
+            <a href="#">Play Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+       <!-- Contact form-->
+       <div class="contact-page" id="contact-page1">
+        <!-- <img src="contact.jpg"> -->
+        <div class="form">
+            <h1>Contact Us</h1>
+            <div class="inputBx">
+                <p>Enter Name</p>
+                <input type="text" placeholder="Full Name">
+            </div>
+            <div class="inputBx">
+                <p>Enter Email</p>
+                <input type="text" placeholder="Email">
+            </div>
+            <div class="inputBx">
+                <p>Message</p>
+                <textarea placeholder="Type here..."></textarea>
+            </div>
+            <div class="inputBx">
+                <input type="submit" name="Submit">
+            </div>
+        </div>
+       </div>
+
+    <!-- footer section -->
+      <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="#Home">Home</a>
+                <a href="#About">About</a>
+                <a href="#games">Games</a>
+                <!-- <a href="#News">News</a> -->
+                <a href="#contact-page1">Contact</a>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/"><img src="facebook123.png" alt="Facebook"></a>
+                <a href="https://x.com/home"><img src="twitter.png" alt="Twitter"></a>
+                <a href="https://www.instagram.com/"><img src="instagram.webp" alt="Instagram"></a>
+                <a href="https://www.youtube.com/"><img src="youtube123.png" alt="YouTube"></a>
+            </div>
+             <!-- Support Links -->
+            <div class="footer-section support">
+              <h2>Support</h2>
+              <ul>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Shipping & Returns</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+            <!-- Contact Links -->
+          <div class="footer-section contact">
+            <h2>Contact Us</h2>
+            <p>Email: <a href="mailto:support@gamehub.com">support@gamehub.com</a></p>
+            <p>Phone: +1 (123) 456-7890</p>
+          </div>
+          <p class="footer-credit">© 2024 GameHub. All rights reserved.</p>
+        </div>
+      </footer> 
+    </div>   
+  </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

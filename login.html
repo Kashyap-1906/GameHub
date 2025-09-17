@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | GameHub</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            /* background-color: #16213e; */
+            background-image: url(image6.jpg);
+            background-size: cover;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+        }
+
+        .form-container {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 30px;
+            border-radius: 8px;
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+        }
+
+        .form-container h2 {
+            margin-bottom: 20px;
+            font-size: 2rem;
+        }
+
+        .form-container input {
+            width: 95%;
+            padding: 10px;
+            margin: 15px 0px;
+            border-radius: 5px;
+            border: none;
+            outline: none;
+            font-size: 16px;
+        }
+
+        .form-container button {
+            margin: 15px 0px;
+            padding: 10px;
+            width: 100%;
+            border-radius: 5px;
+            border: none;
+            background-color: #1a1a2e;
+            color: white;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        #login-buttn{
+            border-radius: 20px;
+        }
+        .form-container::before{
+          position: absolute;
+            content:"";
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color:  rgba(0, 0, 0, 0.8);
+            z-index: -1;
+        }
+
+        .form-container button:hover {
+            background-color: #34b7ea;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Login</h2>
+        <form>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <button id="login-buttn" type="submit">Login</button>
+        </form>
+        <p>Don't have an account? <a href="signup.html" style="color: #00addf;">Sign up</a></p>
+    </div>
+</body>
+</html>
